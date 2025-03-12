@@ -10,15 +10,15 @@ python_files = [f for f in os.listdir() if f.endswith(".py")]
 data = []
 
 def get_colored_time(minutes, seconds):
-    """Returns an HTML-colored time string for GitHub Markdown."""
+    """Returns a time string with an emoji color indicator."""
     if minutes < 5:
-        color = "green"
+        color = "🟩"  # Green
     elif 6 <= minutes <= 29:
-        color = "orange"
+        color = "🟨"  # Yellow
     else:
-        color = "red"
+        color = "🟥"  # Red
     
-    return f'<span style="color:{color};">{minutes}:{seconds}</span>'
+    return f"{color} {minutes}:{seconds}"
 
 for file in python_files:
     with open(file, "r", encoding="utf-8") as f:
