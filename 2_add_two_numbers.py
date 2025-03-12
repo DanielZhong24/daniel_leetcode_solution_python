@@ -24,12 +24,12 @@ class Solution(object):
             if l1:
                 val1 = l1.val
             else:
-                va1 = 0
+                val1 = 0
             
             if l2:
                 val2 = l2.val
             else:
-                va2 = 0
+                val2 = 0
 
             total = val1+val2 + carry
             carry = total//10
