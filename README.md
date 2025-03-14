@@ -9,6 +9,8 @@ This repository contains my Python solutions to various LeetCode problems in 202
 | 11_container_with_most_water.py | 2025-3-12 | 9:01 |
 | 12_integer_to_roman.py | 2025-3-14 | 16:09 |
 | 13_roman_to_integer.py | 2025-3-14 | 4:33 |
+| 14_longest_common_prefix.py | 2025-3-14 | 7:54 |
+| 15_3sum.py | 2025-3-14 | 11:18 |
 | 1_two_sum.py | 2025-3-11 | 5:26 |
 | 2_add_two_numbers.py | 2025-3-11 | 20:55 |
 | 3_longest_substring_without_repeating_characters.py | 2025-3-11 | 11:21 |
