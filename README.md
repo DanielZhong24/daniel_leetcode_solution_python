@@ -11,6 +11,9 @@ This repository contains my Python solutions to various LeetCode problems in 202
 | 13_roman_to_integer.py | 2025-3-14 | 4:33 |
 | 14_longest_common_prefix.py | 2025-3-14 | 7:54 |
 | 15_3sum.py | 2025-3-14 | 11:18 |
+| 16_3sum_closest.py | 2025-3-16 | 17:10 |
+| 17_letter_combinations_of_a_phone_number.py | 2025-3-16 | 10:17 |
+| 18_4sum.py | 2025-3-16 | 30:17 |
 | 1_two_sum.py | 2025-3-11 | 5:26 |
 | 2_add_two_numbers.py | 2025-3-11 | 20:55 |
 | 3_longest_substring_without_repeating_characters.py | 2025-3-11 | 11:21 |
