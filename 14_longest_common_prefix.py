@@ -1,4 +1,4 @@
-#2025-3-14 time: 7:54
+#2025-6-3 time: 5:00
 class Solution(object):
     def longestCommonPrefix(self, strs):
         """
@@ -6,19 +6,24 @@ class Solution(object):
         :rtype: str
         """
 
-
         if not strs:
-            return ""  
+            return ""
         
-        prefix = strs[0]  
-        
-        for string in strs[1:]:
-            while not string.startswith(prefix):
-                prefix = prefix[:-1]  
+        prefix  = strs[0]
+
+
+        for str in strs[1:]:
+            while not str.startswith(prefix):
+                prefix = prefix[:-1]
+
                 if not prefix:
-                    return "" 
-        
+                    return ""
+                
         return prefix
+
+
+
+
 
 
         

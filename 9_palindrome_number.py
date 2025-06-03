@@ -1,16 +1,16 @@
-#2025-3-12 time: 3:10
+#2025-6-2 time: 3:00
 class Solution(object):
     def isPalindrome(self, x):
         """
         :type x: int
         :rtype: bool
         """
+        i = str(x)
+        k = ""
+        for j in range(len(i)-1,-1,-1):
+            k+= i[j]
 
-        org = x
-        temp = 0
-        while x > 0:
-            temp = temp*10 + x%10
-            x//=10
-        return temp == org
+        return k == i
+
 
 

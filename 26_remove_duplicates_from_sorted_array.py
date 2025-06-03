@@ -1,20 +1,24 @@
-#2025-3-18 time: 5:06
+#2025-6-3 time: 9:22
 class Solution(object):
     def removeDuplicates(self, nums):
         """
         :type nums: List[int]
         :rtype: int
         """
-        
+
         if not nums:
             return 0
+
+
+        check = []
+        k = 0
+
+        for num in nums:
+            if num not in check:
+                check.append(num)
+                k+=1
+        nums[:] = check
         
+        return k
 
-        r = 0
-
-        for i in range(1,len(nums)):
-            if nums[i] != nums[r]:
-                r+=1
-                nums[r] = nums[i]
-
-        return r+1
+        
