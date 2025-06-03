@@ -1,4 +1,4 @@
-#2025-6-03 time: 7:01
+#2025-6-3 time: 7:01
 class Solution(object):
     def removeElement(self, nums, val):
         """
