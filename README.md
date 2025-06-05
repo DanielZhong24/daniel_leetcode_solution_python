@@ -30,3 +30,8 @@ This repository contains my Python solutions to various LeetCode problems in 202
 | 24_swap_nodes_in_paris.py | 2025-3-18 | 9:15 |
 | 26_remove_duplicates_from_sorted_array.py | 2025-6-3 | 9:22 |
 | 27_remove_element.py | 2025-6-3 | 7:01 |
+| 28_Find_the_index_of_the_first_occurrence_in_a_string.py | 2025-6-5 | 10:44 |
+| 35_search_insert_position.py | 2025-6-5 | 5:15 |
+| 58_length_of_last_word.py | 2025-6-5 | 1:09 |
+| 66_plus_one.py | 2025-6-5 | 5:41 |
+| 67_add_binary.py | 2025-6-5 | 2:17 |
