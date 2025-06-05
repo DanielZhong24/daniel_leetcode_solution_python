@@ -25,8 +25,8 @@ for file in python_files:
 
 # Write to README.md
 with open("README.md", "w", encoding="utf-8") as readme:
-    readme.write("# Daniel's LeetCode 2025\n\n")
-    readme.write("This repository contains my Python solutions to various LeetCode problems in 2025. "
+    readme.write("# Daniel's LeetCode\n\n")
+    readme.write("This repository contains my Python solutions to various LeetCode problems. "
                  "Each script includes a timestamp indicating when I worked on it.\n\n")
 
     if data:
