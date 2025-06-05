@@ -1,6 +1,6 @@
-# Daniel's LeetCode 2025
+# Daniel's LeetCode
 
-This repository contains my Python solutions to various LeetCode problems in 2025. Each script includes a timestamp indicating when I worked on it.
+This repository contains my Python solutions to various LeetCode problems. Each script includes a timestamp indicating when I worked on it.
 
 ## Solved Problems
 
