@@ -1,5 +1,7 @@
 # Daniel's LeetCode
 
+![Solved Problems](https://img.shields.io/badge/Solved_Problems-34-blue)
+
 This repository contains my Python solutions to various LeetCode problems. Each script includes a timestamp indicating when I worked on it.
 
 ## Solved Problems
@@ -35,3 +37,8 @@ This repository contains my Python solutions to various LeetCode problems. Each 
 | 58_length_of_last_word.py | 2025-6-5 | 1:09 |
 | 66_plus_one.py | 2025-6-5 | 5:41 |
 | 67_add_binary.py | 2025-6-5 | 2:17 |
+| 69_sqrt(x).py | 2025-6-6 | 1:25 |
+| 70_climbing_stairs.py | 2025-6-6 | 13:57 |
+| 83_remove_duplicates_from_sorted_list.py | 2025-6-6 | 5:45 |
+| 88_merge_sorted_array.py | 2025-6-6 | 17:30 |
+| 94_binary_tree_inorder_traversal.py | 2025-6-6 | 4:44 |

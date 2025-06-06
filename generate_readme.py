@@ -23,9 +23,16 @@ for file in python_files:
             date, time = match.groups()
             data.append((file, date, time))
 
+# Count of solved problems
+solved_count = len(data)
+
 # Write to README.md
 with open("README.md", "w", encoding="utf-8") as readme:
     readme.write("# Daniel's LeetCode\n\n")
+    
+    # Add dynamic badge (rendered as static on GitHub)
+    readme.write(f"![Solved Problems](https://img.shields.io/badge/Solved_Problems-{solved_count}-blue)\n\n")
+
     readme.write("This repository contains my Python solutions to various LeetCode problems. "
                  "Each script includes a timestamp indicating when I worked on it.\n\n")
 
