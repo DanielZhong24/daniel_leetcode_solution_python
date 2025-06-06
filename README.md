@@ -1,6 +1,6 @@
 # Daniel's LeetCode
 
-![Solved Problems](https://img.shields.io/badge/Solved_Problems-34-blue)
+![Solved Problems](https://img.shields.io/badge/Solved_Problems-34-brightgreen)
 
 This repository contains my Python solutions to various LeetCode problems. Each script includes a timestamp indicating when I worked on it.
 
