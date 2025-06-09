@@ -1,6 +1,6 @@
 # Daniel's LeetCode
 
-![Solved Problems](https://img.shields.io/badge/Solved_Problems-34-brightgreen)
+![Solved Problems](https://img.shields.io/badge/Solved_Problems-39-brightgreen)
 
 This repository contains my Python solutions to various LeetCode problems. Each script includes a timestamp indicating when I worked on it.
 
@@ -42,3 +42,8 @@ This repository contains my Python solutions to various LeetCode problems. Each 
 | 83_remove_duplicates_from_sorted_list.py | 2025-6-6 | 5:45 |
 | 88_merge_sorted_array.py | 2025-6-6 | 17:30 |
 | 94_binary_tree_inorder_traversal.py | 2025-6-6 | 4:44 |
+| 100_same_tree.py | 2025-6-9 | 17:12 |
+| 101_symmetric_tree.py | 2025-6-9 | 14:32 |
+| 104_max_depth_of_binary_tree.py | 2025-6-9 | 7:53 |
+| 108_convert_sorted_array_to_binary_search_array.py | 2025-6-9 | 9:06 |
+| 110_balanced_binary_tree.py | 2025-6-9 | 12:16 |
