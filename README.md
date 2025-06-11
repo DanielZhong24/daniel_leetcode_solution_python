@@ -1,6 +1,6 @@
 # Daniel's LeetCode
 
-![Solved Problems](https://img.shields.io/badge/Solved_Problems-39-brightgreen)
+![Solved Problems](https://img.shields.io/badge/Solved_Problems-44-brightgreen)
 
 This repository contains my Python solutions to various LeetCode problems. Each script includes a timestamp indicating when I worked on it.
 
@@ -47,3 +47,8 @@ This repository contains my Python solutions to various LeetCode problems. Each 
 | 104_max_depth_of_binary_tree.py | 2025-6-9 | 7:53 |
 | 108_convert_sorted_array_to_binary_search_array.py | 2025-6-9 | 9:06 |
 | 110_balanced_binary_tree.py | 2025-6-9 | 12:16 |
+| 111_minimum_depth_of_binary_tree.py | 2025-6-11 | 8:44 |
+| 112_path_sum.py | 2025-6-11 | 15:21 |
+| 118_pascals_triangle.py | 2025-6-11 | 15:21 |
+| 119_pascals_triangle_II.py | 2025-6-11 | 5:10 |
+| 121_best_time_to_buy_and_sell_stock.py | 2025-6-11 | 9:20 |
