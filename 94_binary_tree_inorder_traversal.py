@@ -1,4 +1,5 @@
-#2025-6-6 time: 4:44
+#2025-7-27 time: 4:08
+
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, val=0, left=None, right=None):
@@ -13,15 +14,10 @@ class Solution(object):
         """
 
         result = []
-
         def traverse(node):
             if node:
                 traverse(node.left)
                 result.append(node.val)
                 traverse(node.right)
-
         traverse(root)
         return result
-
-
-        
