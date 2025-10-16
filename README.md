@@ -1,6 +1,6 @@
 # Daniel's LeetCode
 
-![Solved Problems](https://img.shields.io/badge/Solved_Problems-47-brightgreen)
+![Solved Problems](https://img.shields.io/badge/Solved_Problems-51-brightgreen)
 
 This repository contains my Python solutions to various LeetCode problems. Each script includes a timestamp indicating when I worked on it.
 
@@ -21,7 +21,7 @@ This repository contains my Python solutions to various LeetCode problems. Each 
 | 12_integer_to_roman.py | 2025-3-14 | 16:09 |
 | 13_roman_to_integer.py | 2025-6-2 | 8:29 |
 | 14_longest_common_prefix.py | 2025-6-3 | 5:00 |
-| 15_3sum.py | 2025-10-14 | 5:18 |
+| 15_3sum.py | 2025-10-15 | 6:33 |
 | 16_3sum_closest.py | 2025-3-16 | 17:10 |
 | 17_letter_combinations_of_a_phone_number.py | 2025-3-16 | 10:17 |
 | 18_4sum.py | 2025-3-16 | 30:17 |
@@ -34,7 +34,7 @@ This repository contains my Python solutions to various LeetCode problems. Each 
 | 27_remove_element.py | 2025-6-3 | 7:01 |
 | 28_Find_the_index_of_the_first_occurrence_in_a_string.py | 2025-6-5 | 10:44 |
 | 35_search_insert_position.py | 2025-6-5 | 5:15 |
-| 48_rotate_image.py | 2025-10-14 | 10:22 |
+| 48_rotate_image.py | 2025-10-15 | 5:22 |
 | 58_length_of_last_word.py | 2025-6-5 | 1:09 |
 | 66_plus_one.py | 2025-6-5 | 5:41 |
 | 67_add_binary.py | 2025-6-5 | 2:17 |
@@ -42,6 +42,7 @@ This repository contains my Python solutions to various LeetCode problems. Each 
 | 70_climbing_stairs.py | 2025-6-6 | 13:57 |
 | 83_remove_duplicates_from_sorted_list.py | 2025-6-6 | 5:45 |
 | 88_merge_sorted_array.py | 2025-6-6 | 17:30 |
+| 89_gray_code.py | 2025-10-15 | 4:14 |
 | 94_binary_tree_inorder_traversal.py | 2025-7-27 | 4:08 |
 | 96_unique_binary_search_trees_II.py | 2025-7-27 | 4:08 |
 | 100_same_tree.py | 2025-6-9 | 17:12 |
@@ -54,4 +55,7 @@ This repository contains my Python solutions to various LeetCode problems. Each 
 | 118_pascals_triangle.py | 2025-6-11 | 15:21 |
 | 119_pascals_triangle_II.py | 2025-6-11 | 5:10 |
 | 121_best_time_to_buy_and_sell_stock.py | 2025-6-11 | 9:20 |
-| 1283_Find_the_smallest_divisor_given_a_threshold.py | 2025-10-14 | 13:21 |
+| 724_find_pivout_index.py | 2025-10-16 | 16:10 |
+| 1283_Find_the_smallest_divisor_given_a_threshold.py | 2025-10-15 | 12:04 |
+| 2559_count_vowel_strings_in_ranges.py | 2025-10-16 | 3:23 |
+| 3402_minimum_operations_to_make_columns_strictly_increasing.py | 2025-10-16 | 12:03 |

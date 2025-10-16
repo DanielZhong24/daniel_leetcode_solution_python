@@ -1,34 +1,39 @@
-#2025-10-14 time: 5:18
+#2025-10-15 time: 6:33
 class Solution(object):
-    def threeSum(self, nums:list):
+    def threeSum(self, nums):
         """
         :type nums: List[int]
         :rtype: List[List[int]]
         """
         
-        nums.sort()
-        n = len(nums)
         result = []
-        for i in range(n-2):
-            if i > 0 and nums[i] == nums[i-1]:
+
+        nums.sort()
+
+        for k in range(len(nums)):
+
+            if k > 0 and nums[k]==nums[k-1]:
                 continue
+            i = k+1
+            j = len(nums)-1
 
-            left = i+1
-            right = n-1
-            while left < right:
-                s=nums[i]+nums[left]+nums[right]
+            while i < j:
+                s = nums[k]+nums[i]+nums[j]
 
-                if s == 0 :
-                    result.append([nums[i],nums[left],nums[right]])
-                    left += 1
-                    right -= 1
-                    while left < right and nums[left] == nums[left - 1]:  
-                        left += 1
-                    while left < right and nums[right] == nums[right + 1]: 
-                        right -= 1
-                elif s < 0:
-                    left += 1
+                if s == 0:
+                    result.append([nums[k],nums[i],nums[j]])
+
+                    i+=1
+                    j-=1
+
+                    while i < j and nums[i]==nums[i-1]:
+                        i+=1
+
+                    while i < j and nums[j]==nums[j+1]:
+                        j-=1
+                         
+                elif s > 0:
+                    j-=1
                 else:
-                    right -= 1
-
+                    i+=1
         return result
