@@ -1,16 +1,18 @@
-#2025-6-11 time: 9:20
+#2025-10-17 time: 9:20
 class Solution(object):
     def maxProfit(self, prices):
         """
         :type prices: List[int]
         :rtype: int
         """
+        profit = 0
+        left = 0
+        right = 1
 
-        max_price =0 
-        min_price = float('inf')
-
-        for p in prices:
-            max_price = max(max_price,p-min_price)
-
-            min_price = min(p,min_price)
-        return max_price
+        while right < len(prices):
+            if prices[left] < prices[right]:
+                profit = max(profit,prices[right]-prices[left])
+            else:
+                left = right
+            right+=1
+        return profit

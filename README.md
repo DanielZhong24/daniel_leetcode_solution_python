@@ -1,6 +1,6 @@
 # Daniel's LeetCode
 
-![Solved Problems](https://img.shields.io/badge/Solved_Problems-51-brightgreen)
+![Solved Problems](https://img.shields.io/badge/Solved_Problems-53-brightgreen)
 
 This repository contains my Python solutions to various LeetCode problems. Each script includes a timestamp indicating when I worked on it.
 
@@ -35,6 +35,7 @@ This repository contains my Python solutions to various LeetCode problems. Each 
 | 28_Find_the_index_of_the_first_occurrence_in_a_string.py | 2025-6-5 | 10:44 |
 | 35_search_insert_position.py | 2025-6-5 | 5:15 |
 | 48_rotate_image.py | 2025-10-15 | 5:22 |
+| 54_spiral_matrix.py | 2025-10-17 | 9:20 |
 | 58_length_of_last_word.py | 2025-6-5 | 1:09 |
 | 66_plus_one.py | 2025-6-5 | 5:41 |
 | 67_add_binary.py | 2025-6-5 | 2:17 |
@@ -54,7 +55,8 @@ This repository contains my Python solutions to various LeetCode problems. Each 
 | 112_path_sum.py | 2025-6-11 | 15:21 |
 | 118_pascals_triangle.py | 2025-6-11 | 15:21 |
 | 119_pascals_triangle_II.py | 2025-6-11 | 5:10 |
-| 121_best_time_to_buy_and_sell_stock.py | 2025-6-11 | 9:20 |
+| 121_best_time_to_buy_and_sell_stock.py | 2025-10-17 | 9:20 |
+| 125_valid_palindrome.py | 2025-10-17 | 9:20 |
 | 724_find_pivout_index.py | 2025-10-16 | 16:10 |
 | 1283_Find_the_smallest_divisor_given_a_threshold.py | 2025-10-15 | 12:04 |
 | 2559_count_vowel_strings_in_ranges.py | 2025-10-16 | 3:23 |
