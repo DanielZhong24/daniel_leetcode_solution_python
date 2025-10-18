@@ -1,6 +1,6 @@
 # Daniel's LeetCode
 
-![Solved Problems](https://img.shields.io/badge/Solved_Problems-53-brightgreen)
+![Solved Problems](https://img.shields.io/badge/Solved_Problems-55-brightgreen)
 
 This repository contains my Python solutions to various LeetCode problems. Each script includes a timestamp indicating when I worked on it.
 
@@ -17,7 +17,7 @@ This repository contains my Python solutions to various LeetCode problems. Each 
 | 7_reverse_integer.py | 2025-3-12 | 13:30 |
 | 8_string_to_integer.py | 2025-3-12 | 29:36 |
 | 9_palindrome_number.py | 2025-6-2 | 3:00 |
-| 11_container_with_most_water.py | 2025-3-12 | 9:01 |
+| 11_container_with_most_water.py | 2025-10-18 | 5:00 |
 | 12_integer_to_roman.py | 2025-3-14 | 16:09 |
 | 13_roman_to_integer.py | 2025-6-2 | 8:29 |
 | 14_longest_common_prefix.py | 2025-6-3 | 5:00 |
@@ -41,6 +41,7 @@ This repository contains my Python solutions to various LeetCode problems. Each 
 | 67_add_binary.py | 2025-6-5 | 2:17 |
 | 69_sqrt(x).py | 2025-6-6 | 1:25 |
 | 70_climbing_stairs.py | 2025-6-6 | 13:57 |
+| 74_search_a_2d_matrix.py | 2025-10-18 | 5:00 |
 | 83_remove_duplicates_from_sorted_list.py | 2025-6-6 | 5:45 |
 | 88_merge_sorted_array.py | 2025-6-6 | 17:30 |
 | 89_gray_code.py | 2025-10-15 | 4:14 |
@@ -57,6 +58,7 @@ This repository contains my Python solutions to various LeetCode problems. Each 
 | 119_pascals_triangle_II.py | 2025-6-11 | 5:10 |
 | 121_best_time_to_buy_and_sell_stock.py | 2025-10-17 | 9:20 |
 | 125_valid_palindrome.py | 2025-10-17 | 9:20 |
+| 704_binary_search.py | 2025-10-18 | 2:00 |
 | 724_find_pivout_index.py | 2025-10-16 | 16:10 |
 | 1283_Find_the_smallest_divisor_given_a_threshold.py | 2025-10-15 | 12:04 |
 | 2559_count_vowel_strings_in_ranges.py | 2025-10-16 | 3:23 |
