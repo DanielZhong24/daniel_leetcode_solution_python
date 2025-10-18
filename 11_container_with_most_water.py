@@ -1,23 +1,17 @@
-#2025-3-12 time: 9:01
-class Solution(object):
-    def maxArea(self, height):
-        """
-        :type height: List[int]
-        :rtype: int
-        """
-
-        #first try on two pointer approach
-        #start from the widest possible container and move to the inside
-
-        left,right = 0, len(height)-1
-        max_area = 0
+#2025-10-18 time: 5:00
+class Solution:
+    def maxArea(self, heights) -> int:
+        
+        left = 0
+        right = len(heights)-1
+        area = 0
         while left < right:
-            area = min(height[left],height[right]) *(right-left)
-            max_area = max(max_area,area)
+            a = (right-left)* min(heights[left],heights[right])
+            area = max(a,area)
 
-            if height[left]<height[right]:
+            if heights[left]< heights[right]:
                 left+=1
             else:
                 right-=1
 
-        return max_area
+        return area
