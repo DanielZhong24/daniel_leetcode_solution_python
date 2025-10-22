@@ -1,4 +1,4 @@
-#2025-6-3 time: 10:33
+#2025-10-21 time: 5:33
 # Definition for singly-linked list.
 class ListNode(object):
     def __init__(self, val=0, next=None):
@@ -11,26 +11,21 @@ class Solution(object):
         :type list2: Optional[ListNode]
         :rtype: Optional[ListNode]
         """
-
-        result = ListNode()
-        current = result
-
-
-        while list1 and list2:
-            if list1.val < list2.val:
-                current.next = list1
-                list1 = list1.next
-            else:
-                current.next = list2
-                list2 = list2.next
-
-
-        if list1:
-            current.next = list1
-        if list2:
-            current.next = list2
-
         
+        result = ListNode()
+        head = result
+        while list1 and list2:
+            if list1.val > list2.val:
+                head.next = list2
+                list2 = list2.next
+            else:
+                head.next = list1
+                list1 = list1.next
+            head = head.next
+        if list1:
+            head.next = list1
+        if list2:
+            head.next = list2
         return result.next
             
 
