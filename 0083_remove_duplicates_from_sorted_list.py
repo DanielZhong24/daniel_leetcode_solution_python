@@ -1,4 +1,5 @@
-#2025-6-6 time: 5:45
+#2025-10-21 time: 4:00
+# Definition for singly-linked list.
 class ListNode(object):
     def __init__(self, val=0, next=None):
         self.val = val
@@ -10,12 +11,11 @@ class Solution(object):
         :rtype: Optional[ListNode]
         """
         
-        current = head
-
-        while current and current.next:
-            if current.val == current.next.val:
-                current.next = current.next.next
+        curr = head
+        while curr and curr.next:
+            if curr.val == curr.next.val:
+                curr.next = curr.next.next
             else:
-                current = current.next
-
+                curr = curr.next
+        
         return head
