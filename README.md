@@ -1,6 +1,6 @@
 # Daniel's LeetCode
 
-![Solved Problems](https://img.shields.io/badge/Solved_Problems-55-brightgreen)
+![Solved Problems](https://img.shields.io/badge/Solved_Problems-56-brightgreen)
 
 This repository contains my Python solutions to various LeetCode problems. Each script includes a timestamp indicating when I worked on it.
 
@@ -27,7 +27,7 @@ This repository contains my Python solutions to various LeetCode problems. Each 
 | 0018_4sum.py | 2025-3-16 | 30:17 |
 | 0019_remove_Nth_node_from_end_of_list.py | 2025-3-16 | 8:22 |
 | 0020_valid_parentheses.py | 2025-6-3 | 10:00 |
-| 0021_merge_two_sorted_lists.py | 2025-6-3 | 10:33 |
+| 0021_merge_two_sorted_lists.py | 2025-10-21 | 5:33 |
 | 0022_generate_parentheses.py | 2025-3-18 | 5:15 |
 | 0024_swap_nodes_in_paris.py | 2025-3-18 | 9:15 |
 | 0026_remove_duplicates_from_sorted_array.py | 2025-6-3 | 9:22 |
@@ -42,7 +42,7 @@ This repository contains my Python solutions to various LeetCode problems. Each 
 | 0069_sqrt(x).py | 2025-6-6 | 1:25 |
 | 0070_climbing_stairs.py | 2025-6-6 | 13:57 |
 | 0074_search_a_2d_matrix.py | 2025-10-18 | 5:00 |
-| 0083_remove_duplicates_from_sorted_list.py | 2025-6-6 | 5:45 |
+| 0083_remove_duplicates_from_sorted_list.py | 2025-10-21 | 4:00 |
 | 0088_merge_sorted_array.py | 2025-6-6 | 17:30 |
 | 0089_gray_code.py | 2025-10-15 | 4:14 |
 | 0094_binary_tree_inorder_traversal.py | 2025-7-27 | 4:08 |
@@ -58,6 +58,7 @@ This repository contains my Python solutions to various LeetCode problems. Each 
 | 0119_pascals_triangle_II.py | 2025-6-11 | 5:10 |
 | 0121_best_time_to_buy_and_sell_stock.py | 2025-10-17 | 9:20 |
 | 0125_valid_palindrome.py | 2025-10-17 | 9:20 |
+| 0141_linked_list_cycle.py | 2025-10-21 | 9:20 |
 | 0704_binary_search.py | 2025-10-18 | 2:00 |
 | 0724_find_pivout_index.py | 2025-10-16 | 16:10 |
 | 1283_Find_the_smallest_divisor_given_a_threshold.py | 2025-10-15 | 12:04 |
