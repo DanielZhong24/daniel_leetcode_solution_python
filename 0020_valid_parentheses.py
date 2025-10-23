@@ -1,39 +1,22 @@
-#2025-6-3 time: 10:00
-class Solution(object):
-    def isValid(self, s):
-        """
-        :type s: str
-        :rtype: bool
-        """
-        if len(s)%2 != 0:
+#2025-10-22 time: 3:39
+class Solution:
+    def isValid(self, s: str) -> bool:
+        if not s:
             return False
 
-        d={"(":")","{":"}","[":"]"}
 
+        d = {")":"(","}":"{","]":"["}
+        stack= []
 
-
-        queue = []
-
-        for bracket in s:
-            if bracket in d:
-                queue.append(bracket)
+        for p in s:
+            if p in d.keys() and len(stack)>0:
+                if stack[-1] != d[p]:
+                    return False
+                else:
+                    stack.pop()
 
             else:
-                if not queue or d[queue[-1]] != bracket:
-                    return False
-                queue.pop()
-            
-        return len(queue) == 0
+                stack.append(p)
 
-s = Solution()
+        return len(stack)==0
 
-print(s.isValid('(([]))[]['))
-
-        
-
-            
-
-
-
-
-        
