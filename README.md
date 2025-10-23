@@ -1,6 +1,6 @@
 # Daniel's LeetCode
 
-![Solved Problems](https://img.shields.io/badge/Solved_Problems-56-brightgreen)
+![Solved Problems](https://img.shields.io/badge/Solved_Problems-60-brightgreen)
 
 This repository contains my Python solutions to various LeetCode problems. Each script includes a timestamp indicating when I worked on it.
 
@@ -26,7 +26,7 @@ This repository contains my Python solutions to various LeetCode problems. Each 
 | 0017_letter_combinations_of_a_phone_number.py | 2025-3-16 | 10:17 |
 | 0018_4sum.py | 2025-3-16 | 30:17 |
 | 0019_remove_Nth_node_from_end_of_list.py | 2025-3-16 | 8:22 |
-| 0020_valid_parentheses.py | 2025-6-3 | 10:00 |
+| 0020_valid_parentheses.py | 2025-10-22 | 3:39 |
 | 0021_merge_two_sorted_lists.py | 2025-10-21 | 5:33 |
 | 0022_generate_parentheses.py | 2025-3-18 | 5:15 |
 | 0024_swap_nodes_in_paris.py | 2025-3-18 | 9:15 |
@@ -45,7 +45,7 @@ This repository contains my Python solutions to various LeetCode problems. Each 
 | 0083_remove_duplicates_from_sorted_list.py | 2025-10-21 | 4:00 |
 | 0088_merge_sorted_array.py | 2025-6-6 | 17:30 |
 | 0089_gray_code.py | 2025-10-15 | 4:14 |
-| 0094_binary_tree_inorder_traversal.py | 2025-7-27 | 4:08 |
+| 0094_binary_tree_inorder_traversal.py | 2025-10-22 | 2:37 |
 | 0096_unique_binary_search_trees_II.py | 2025-7-27 | 4:08 |
 | 0100_same_tree.py | 2025-6-9 | 17:12 |
 | 0101_symmetric_tree.py | 2025-6-9 | 14:32 |
@@ -59,6 +59,10 @@ This repository contains my Python solutions to various LeetCode problems. Each 
 | 0121_best_time_to_buy_and_sell_stock.py | 2025-10-17 | 9:20 |
 | 0125_valid_palindrome.py | 2025-10-17 | 9:20 |
 | 0141_linked_list_cycle.py | 2025-10-21 | 9:20 |
+| 0160_intersection_of_two_linked_lists.py | 2025-10-22 | 8:36 |
+| 0203_remove_linked_list_elements.py | 2025-10-22 | 10:45 |
+| 0206_reverse_linked_list.py | 2025-10-22 | 0:34 |
+| 0234_palindrome_linked_list.py | 2025-10-22 | 9:45 |
 | 0704_binary_search.py | 2025-10-18 | 2:00 |
 | 0724_find_pivout_index.py | 2025-10-16 | 16:10 |
 | 1283_Find_the_smallest_divisor_given_a_threshold.py | 2025-10-15 | 12:04 |
