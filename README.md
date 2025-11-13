@@ -1,6 +1,6 @@
 # Daniel's LeetCode
 
-![Solved Problems](https://img.shields.io/badge/Solved_Problems-60-brightgreen)
+![Solved Problems](https://img.shields.io/badge/Solved_Problems-61-brightgreen)
 
 This repository contains my Python solutions to various LeetCode problems. Each script includes a timestamp indicating when I worked on it.
 
@@ -33,6 +33,7 @@ This repository contains my Python solutions to various LeetCode problems. Each 
 | 0026_remove_duplicates_from_sorted_array.py | 2025-6-3 | 9:22 |
 | 0027_remove_element.py | 2025-6-3 | 7:01 |
 | 0028_Find_the_index_of_the_first_occurrence_in_a_string.py | 2025-6-5 | 10:44 |
+| 0031_next_permutation.py | 2025-11-12 | 6:35 |
 | 0035_search_insert_position.py | 2025-6-5 | 5:15 |
 | 0048_rotate_image.py | 2025-10-15 | 5:22 |
 | 0054_spiral_matrix.py | 2025-10-17 | 9:20 |
